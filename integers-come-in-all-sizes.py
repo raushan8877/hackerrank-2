@@ -1,8 +1,7 @@
-# https://www.hackerrank.com/challenges/python-integers-come-in-all-sizes
-
-a = int(raw_input())
-b = int(raw_input())
-c = int(raw_input())
-d = int(raw_input())
-
-print (a ** b) + (c ** d)
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+result = pow(a,b) + pow(c,d)
+print(result)
